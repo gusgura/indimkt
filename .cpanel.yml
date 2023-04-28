@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/gusgura/public_html/indimkt.com
+    - /bin/cp index.html $DEPLOYPATH
+    #- /bin/cp -R images $DEPLOYPATH
